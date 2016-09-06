@@ -1,0 +1,19 @@
+.btn{
+  height: 100px;
+  width: 200px;
+  background-color: #E5B6D5;
+  border: 10px solid #B2479A;
+  border-left: 10px solid #CC7FB5;
+  border-right: 10px solid #CC7FB5;
+  font-weight: bold;
+  font-size: 25px;
+  color:#FFFFFF;
+  margin: 20px;
+}
+
+.btn:hover {
+  
+}
+.button-container{
+  position: relative
+}
