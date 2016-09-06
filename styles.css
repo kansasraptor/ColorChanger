@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: magenta;
+}
 .btn{
   height: 100px;
   width: 200px;
@@ -12,8 +16,12 @@
 }
 
 .btn:hover {
-  
+  background-color: #B2479A;
+  border: 10px solid #CC7FB5;
+  border-left: 10px solid #E5B6D5;
+  border-right: 10px solid #E5B6D5;
 }
+
 .button-container{
   position: relative
 }
