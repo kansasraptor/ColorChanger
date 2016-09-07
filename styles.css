@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: magenta;
+  background-color: white;
 }
-.btn{
+.btn {
   height: 100px;
   width: 200px;
   background-color: #E5B6D5;
@@ -12,7 +12,6 @@ body {
   font-weight: bold;
   font-size: 25px;
   color:#FFFFFF;
-  margin: 20px;
 }
 
 .btn:hover {
@@ -22,6 +21,21 @@ body {
   border-right: 10px solid #E5B6D5;
 }
 
-.button-container{
-  position: relative
+.button-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  width: 420px;
 }
+
+/*@media screen and (max-width:430px) {
+  .button-container {
+    width: 100vw;
+    height: 200px;
+    flex-direction: column;
+  }
+
+}*/
