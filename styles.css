@@ -23,7 +23,6 @@ body {
 
 .button-container {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   align-items: center;
   margin: auto;
@@ -31,11 +30,29 @@ body {
   width: 420px;
 }
 
-/*@media screen and (max-width:430px) {
+@media screen and (max-width:430px) {
   .button-container {
-    width: 100vw;
-    height: 200px;
-    flex-direction: column;
+    /*width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;*/
+    /*display: block;*/
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    grid-template-rows: 23% 24% 6% 24% 23%;
+
+  }
+  .btn-reset {
+    height: 50px;
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-row-start: 4;
+  }
+  .btn-random {
+    grid-column-start: 2;
+    grid-row-start: 2;
   }
 
-}*/
+
+
+}
